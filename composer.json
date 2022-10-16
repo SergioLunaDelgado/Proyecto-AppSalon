@@ -1,0 +1,23 @@
+{
+    "name": "slrmty01/app-salon",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "SergioLunaDelgado",
+            "email": "sergioluna13102001@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

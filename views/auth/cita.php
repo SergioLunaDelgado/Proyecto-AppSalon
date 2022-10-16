@@ -1,0 +1,2 @@
+<?
+echo "No es admin";
